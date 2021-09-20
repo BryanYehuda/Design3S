@@ -17,10 +17,10 @@ body {
 
 .btn-google {
     color: white !important;
-    background-color: #ea4335;
+    background-color: #ea4335 !important;
 }
 
 .btn-facebook {
     color: white !important;
-    background-color: #3b5998;
+    background-color: #3b5998 !important;
 }
