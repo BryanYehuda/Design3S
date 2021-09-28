@@ -19,18 +19,19 @@
     <link rel="stylesheet" href="js/select.dataTables.min.css">
     <link rel="stylesheet" href="css/vertical-layout-light/style.css">
     <link rel="shortcut icon" href="images/favicon.png" />
-    <!-- Links Starts-->
+    <!-- Links Ends-->
 </head>
 
 <body>
     <div class="container-scroller">
 
+        <!-- Nav Starts-->
         <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
                 <div class="me-3">
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
-            <span class="icon-menu"></span>
-          </button>
+                    <span class="icon-menu"></span>
+                    </button>
                 </div>
                 <div>
                     <a class="navbar-brand brand-logo" href="index.html">
@@ -52,7 +53,7 @@
                     <li class="nav-item d-none d-lg-block">
                         <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
                             <span class="input-group-addon input-group-prepend border-right">
-                <span class="icon-calendar input-group-text calendar-icon"></span>
+                                <span class="icon-calendar input-group-text calendar-icon"></span>
                             </span>
                             <input type="text" class="form-control">
                         </div>
@@ -119,10 +120,13 @@
                     </li>
                 </ul>
                 <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-bs-toggle="offcanvas">
-          <span class="mdi mdi-menu"></span>
-        </button>
+                    <span class="mdi mdi-menu"></span>
+                </button>
             </div>
         </nav>
+        <!-- Nav Ends-->
+
+        <!-- Sidebar Starts-->
         <div class="container-fluid page-body-wrapper">
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
@@ -179,7 +183,7 @@
                         </a>
                         <div class="collapse" id="tables">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Masuk ke Tahap 3</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Masuk ke Tahap 3</a></li>
                             </ul>
                         </div>
                     </li>
@@ -191,7 +195,7 @@
                         </a>
                         <div class="collapse" id="icons">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Masuk ke Tahap 4</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Masuk ke Tahap 4</a></li>
                             </ul>
                         </div>
                     </li>
@@ -204,13 +208,15 @@
                         </a>
                         <div class="collapse" id="auth">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html">Download</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Download</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </nav>
-            <!-- partial -->
+            <!-- Sidebar Ends-->
+
+            <!-- Main Dashboard Starts-->
             <div class="main-panel">
                 <div class="content-wrapper">
                     <div class="row">
@@ -219,14 +225,15 @@
                                 <div class="d-sm-flex align-items-center justify-content-between border-bottom">
                                     <div>
                                         <div class="btn-wrapper">
-                                            <a href="#" class="btn btn-otline-dark align-items-center"><i class="icon-share"></i> Share</a>
-                                            <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i> Print</a>
-                                            <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i> Export</a>
+                                            <a href="#" class="btn btn-otline-dark align-items-center"><i class="icon-share"></i>Share</a>
+                                            <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i>Print</a>
+                                            <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i>Export</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tab-content tab-content-basic">
                                     <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
+
                                         <div class="row">
                                             <div class="col-lg-8 d-flex flex-column">
                                                 <div class="row flex-grow">
@@ -301,6 +308,7 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="row">
                                             <div class="col-lg-8 d-flex flex-column">
                                                 <div class="row flex-grow">
@@ -360,7 +368,7 @@
                                                                                 <th>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                              <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </th>
                                                                                 <th>Customer</th>
@@ -374,7 +382,7 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -409,7 +417,7 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -444,7 +452,7 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -479,7 +487,7 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -514,7 +522,7 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
@@ -552,20 +560,21 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="row flex-grow">
                                                     <div class="col-md-6 col-lg-6 grid-margin stretch-card">
                                                         <div class="card card-rounded">
                                                             <div class="card-body card-rounded">
-                                                                <h4 class="card-title  card-title-dash">Recent Events</h4>
+                                                                <h4 class="card-title  card-title-dash">Event Terbaru</h4>
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Change in Directors
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -573,12 +582,12 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Other Events
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -586,12 +595,12 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Quarterly Report
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -599,21 +608,20 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Change in Directors
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-
                                                                 <div class="list align-items-center pt-3">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-0">
-                                                                            <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
+                                                                            <a href="#" class="fw-bold text-primary">Lihat Semua<i class="mdi mdi-arrow-right ms-2"></i></a>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -624,49 +632,49 @@
                                                         <div class="card card-rounded">
                                                             <div class="card-body">
                                                                 <div class="d-flex align-items-center justify-content-between mb-3">
-                                                                    <h4 class="card-title card-title-dash">Activities</h4>
-                                                                    <p class="mb-0">20 finished, 5 remaining</p>
+                                                                    <h4 class="card-title card-title-dash">Aktivitas</h4>
+                                                                    <p class="mb-0">20 Selesai, 5 Tersisa</p>
                                                                 </div>
                                                                 <ul class="bullet-line-list">
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
-                                                                            <p>Just now</p>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
+                                                                            <p>Baru Saja</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Oliver Noah</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Oliver Noah</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Jack William</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Jack William</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Leo Lucas</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Leo Lucas</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Thomas Henry</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Thomas Henry</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
@@ -674,7 +682,7 @@
                                                                 <div class="list align-items-center pt-3">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-0">
-                                                                            <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
+                                                                            <a href="#" class="fw-bold text-primary">Lihat Semua<i class="mdi mdi-arrow-right ms-2"></i></a>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -682,8 +690,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                             </div>
+
                                             <div class="col-lg-4 d-flex flex-column">
+
                                                 <div class="row flex-grow">
                                                     <div class="col-12 grid-margin stretch-card">
                                                         <div class="card card-rounded">
@@ -693,7 +704,6 @@
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <h4 class="card-title card-title-dash">To do list</h4>
                                                                             <div class="add-items d-flex mb-0">
-                                                                                <!-- <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> -->
                                                                                 <button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
                                                                             </div>
                                                                         </div>
@@ -702,45 +712,44 @@
                                                                                 <li class="d-block">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-warning me-3">Due tomorrow</div>
-                                                                                            <i class="mdi mdi-flag ms-2 flag-color"></i>
+                                                                                            <div class="ps-4 text-small me-3">24 June 2021</div>
+                                                                                            <div class="badge badge-opacity-warning me-3">Besok Terakhir</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li class="d-block">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">23 June 2020</div>
-                                                                                            <div class="badge badge-opacity-success me-3">Done</div>
+                                                                                            <div class="ps-4 text-small me-3">23 June 2021</div>
+                                                                                            <div class="badge badge-opacity-success me-3">Selesai</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li>
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-success me-3">Done</div>
+                                                                                            <div class="ps-4 text-small me-3">24 June 2021</div>
+                                                                                            <div class="badge badge-opacity-success me-3">Selesai</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li class="border-bottom-0">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
                                                                                             <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-danger me-3">Expired</div>
+                                                                                            <div class="badge badge-opacity-danger me-3">Batal</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
@@ -752,6 +761,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="row flex-grow">
                                                     <div class="col-12 grid-margin stretch-card">
                                                         <div class="card card-rounded">
@@ -777,7 +787,7 @@
                                                                     <div class="col-lg-12">
                                                                         <div class="d-flex justify-content-between align-items-center mb-3">
                                                                             <div>
-                                                                                <h4 class="card-title card-title-dash">Top Performer</h4>
+                                                                                <h4 class="card-title card-title-dash">Daftar Client</h4>
                                                                             </div>
                                                                         </div>
                                                                         <div class="mt-3">
@@ -790,7 +800,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
@@ -802,7 +812,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
@@ -814,7 +824,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
@@ -826,7 +836,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between pt-2">
@@ -838,7 +848,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -849,6 +859,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -856,42 +867,35 @@
                         </div>
                     </div>
                 </div>
-                <!-- content-wrapper ends -->
-                <!-- partial:partials/_footer.html -->
+                <!-- Main Dashboard Ends-->
+
+                <!-- Footer Starts-->
                 <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
                         <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Surabaya Survey Solution</span>
                         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
                     </div>
                 </footer>
-                <!-- partial -->
-            </div>
-            <!-- main-panel ends -->
-        </div>
-        <!-- page-body-wrapper ends -->
-    </div>
-    <!-- container-scroller -->
+                <!-- Footer Ends-->
 
-    <!-- plugins:js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Starts-->
     <script src="vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
     <script src="vendors/chart.js/Chart.min.js"></script>
     <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
     <script src="vendors/progressbar.js/progressbar.min.js"></script>
-
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
     <script src="js/off-canvas.js"></script>
     <script src="js/hoverable-collapse.js"></script>
     <script src="js/template.js"></script>
     <script src="js/settings.js"></script>
     <script src="js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page-->
     <script src="js/dashboard.js"></script>
     <script src="js/Chart.roundedBarCharts.js"></script>
-    <!-- End custom js for this page-->
+    <!-- Script Starts-->
+
 </body>
 
 </html>
