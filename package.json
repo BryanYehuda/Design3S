@@ -85,17 +85,17 @@
         "browser-sync": "^2.16.0",
         "compass-mixins": "^0.12.10",
         "del": "^4.1.1",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.24.2",
         "gulp": "^4.0.2",
         "gulp-concat": "^2.6.1",
         "gulp-inject": "^5.0.2",
         "gulp-inject-partials": "^1.0.3",
         "gulp-rename": "^1.2.2",
         "gulp-replace": "^1.0.0",
-        "gulp-sass": "^4.0.2",
+        "gulp-sass": "^5.0.0",
         "minimatch": "^3.0.4",
-        "node-sass": "^4.12.0",
-        "eslint": "^7.32.0",
-        "eslint-config-airbnb-base": "^14.2.1",
-        "eslint-plugin-import": "^2.24.2"
+        "node-sass": "^6.0.1"
     }
 }
