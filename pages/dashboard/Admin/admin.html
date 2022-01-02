@@ -3,40 +3,44 @@
 
 <head>
     <!-- Meta Starts-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>3S Dashboard</title>
+    <title>Surabaya Survey Solution</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Surabaya Survey Solution adalah sebuah perusahaan yang bergerak di bidang survey">
+    <meta name="author" content="Surabaya Survey Solution">
+    <meta name="theme-color" content="#fff" />
     <!-- Meta Ends-->
 
     <!-- Links Starts -->
-    <link rel="stylesheet" href="vendors/feather/feather.css">
-    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
-    <link rel="stylesheet" href="vendors/typicons/typicons.css">
-    <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
-    <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
-    <link rel="stylesheet" href="js/select.dataTables.min.css">
-    <link rel="stylesheet" href="css/vertical-layout-light/style.css">
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <!-- Links Starts-->
+    <link rel="stylesheet" href="../../../vendors/feather/feather.css">
+    <link rel="stylesheet" href="../../../vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../../vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="../../../vendors/typicons/typicons.css">
+    <link rel="stylesheet" href="../../../vendors/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../../../vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../../js/select.dataTables.min.css">
+    <link rel="stylesheet" href="../../../css/vertical-layout-light/style.css">
+    <link rel="shortcut icon" href="../../../images/favicon.png" />
+    <!-- Links Ends-->
 </head>
 
 <body>
     <div class="container-scroller">
 
+        <!-- Nav Starts-->
         <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
                 <div class="me-3">
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-bs-toggle="minimize">
-            <span class="icon-menu"></span>
-          </button>
+                    <span class="icon-menu"></span>
+                    </button>
                 </div>
                 <div>
-                    <a class="navbar-brand brand-logo" href="index.html">
+                    <a class="navbar-brand brand-logo" href="admin.html">
                         <!-- <img src="#" alt="logo" />-->
                     </a>
-                    <a class="navbar-brand brand-logo-mini" href="index.html">
+                    <a class="navbar-brand brand-logo-mini" href="admin.html">
                         <!--<img src="#" alt="logo" />>-->
                     </a>
                 </div>
@@ -52,7 +56,7 @@
                     <li class="nav-item d-none d-lg-block">
                         <div id="datepicker-popup" class="input-group date datepicker navbar-date-picker">
                             <span class="input-group-addon input-group-prepend border-right">
-                <span class="icon-calendar input-group-text calendar-icon"></span>
+                                <span class="icon-calendar input-group-text calendar-icon"></span>
                             </span>
                             <input type="text" class="form-control">
                         </div>
@@ -104,113 +108,131 @@
                     </li>
                     <li class="nav-item dropdown d-none d-lg-block user-dropdown">
                         <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="Profile image"> </a>
+                            <img class="img-xs rounded-circle" src="../../../images/faces/face8.jpg" alt="Profile image"> </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                             <div class="dropdown-header text-center">
-                                <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                                <img class="img-md rounded-circle" src="../../../images/faces/face8.jpg" alt="Profile image">
                                 <p class="mb-1 mt-3 font-weight-semibold">Budi Hermawan</p>
                                 <p class="fw-light text-muted mb-0">budihermawan.com</p>
                             </div>
                             <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> Profile Saya <span class="badge badge-pill badge-danger">1</span></a>
                             <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Pesan</a>
                             <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-calendar-check-outline text-primary me-2"></i> Aktivitas</a>
-                            <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Keluar</a>
+                            <a class="dropdown-item" href="../../sign-in.html"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Keluar</a>
                         </div>
                     </li>
                 </ul>
                 <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-bs-toggle="offcanvas">
-          <span class="mdi mdi-menu"></span>
-        </button>
+                    <span class="mdi mdi-menu"></span>
+                </button>
             </div>
         </nav>
+        <!-- Nav Ends-->
+
+        <!-- Sidebar Starts-->
         <div class="container-fluid page-body-wrapper">
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="admin.html">
                             <i class="mdi mdi-grid-large menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
                     <li class="nav-item nav-category">Kerjasama</li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#apply" aria-expanded="false" aria-controls="apply">
                             <i class="menu-icon mdi mdi-floor-plan"></i>
                             <span class="menu-title">Apply Kerjasama</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="ui-basic">
+                        <div class="collapse" id="apply">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="#">Prosedur</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="#">Form</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="prosedur.html">Prosedur</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="form.html">Form</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item nav-category">Tahapan</li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#tahap1" aria-expanded="false" aria-controls="tahap1">
                             <i class="menu-icon mdi mdi-card-text-outline"></i>
                             <span class="menu-title">Tahap 1</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="form-elements">
+                        <div class="collapse" id="tahap1">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"><a class="nav-link" href="#">Masuk ke Tahap 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="tahap1.html">Masuk ke Tahap 1</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#tahap2" aria-expanded="false" aria-controls="tahap2">
                             <i class="menu-icon mdi mdi-chart-line"></i>
                             <span class="menu-title">Tahap 2</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="charts">
+                        <div class="collapse" id="tahap2">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="#">Masuk ke Tahap 2</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="tahap2.html">Masuk ke Tahap 2</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#tahap3" aria-expanded="false" aria-controls="tahap3">
                             <i class="menu-icon mdi mdi-table"></i>
                             <span class="menu-title">Tahap 3</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="tables">
+                        <div class="collapse" id="tahap3">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Masuk ke Tahap 3</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="tahap3.html">Masuk ke Tahap 3</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#tahap4" aria-expanded="false" aria-controls="tahap4">
                             <i class="menu-icon mdi mdi-layers-outline"></i>
                             <span class="menu-title">Tahap 4</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="icons">
+                        <div class="collapse" id="tahap4">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Masuk ke Tahap 4</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="tahap4.html">Masuk ke Tahap 4</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item nav-category">Hasil</li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#hasil" aria-expanded="false" aria-controls="hasil">
                             <i class="menu-icon mdi mdi-account-circle-outline"></i>
                             <span class="menu-title">Ambil Hasil</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="auth">
+                        <div class="collapse" id="hasil">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html">Download</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="download.html">Download</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-category">Admin</li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#hasil" aria-expanded="false" aria-controls="hasil">
+                            <i class="menu-icon mdi mdi-account-circle-outline"></i>
+                            <span class="menu-title">Control Moderator</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="hasil">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="control.html">Control Moderator</a></li>
                             </ul>
                         </div>
                     </li>
                 </ul>
             </nav>
-            <!-- partial -->
+            <!-- Sidebar Ends-->
+
+            <!-- Main Dashboard Starts-->
             <div class="main-panel">
                 <div class="content-wrapper">
                     <div class="row">
@@ -219,14 +241,15 @@
                                 <div class="d-sm-flex align-items-center justify-content-between border-bottom">
                                     <div>
                                         <div class="btn-wrapper">
-                                            <a href="#" class="btn btn-otline-dark align-items-center"><i class="icon-share"></i> Share</a>
-                                            <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i> Print</a>
-                                            <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i> Export</a>
+                                            <a href="#" class="btn btn-otline-dark align-items-center"><i class="icon-share"></i>Share</a>
+                                            <a href="#" class="btn btn-otline-dark"><i class="icon-printer"></i>Print</a>
+                                            <a href="#" class="btn btn-primary text-white me-0"><i class="icon-download"></i>Export</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tab-content tab-content-basic">
                                     <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
+
                                         <div class="row">
                                             <div class="col-lg-8 d-flex flex-column">
                                                 <div class="row flex-grow">
@@ -256,7 +279,7 @@
                                                                 <h4 class="card-title card-title-dash text-white mb-4">Status</h4>
                                                                 <div class="row">
                                                                     <div class="col-sm-4">
-                                                                        <p class="status-summary-ight-white mb-1">Closed Value</p>
+                                                                        <p class="status-summary-ight-white mb-1">Lorem Ipsum</p>
                                                                         <h2 class="text-info">357</h2>
                                                                     </div>
                                                                     <div class="col-sm-8">
@@ -301,6 +324,7 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="row">
                                             <div class="col-lg-8 d-flex flex-column">
                                                 <div class="row flex-grow">
@@ -360,7 +384,7 @@
                                                                                 <th>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                              <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </th>
                                                                                 <th>Customer</th>
@@ -374,12 +398,12 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="d-flex ">
-                                                                                        <img src="images/faces/face1.jpg" alt="">
+                                                                                        <img src="../../../images/faces/face1.jpg" alt="">
                                                                                         <div>
                                                                                             <h6>Brandon Washington</h6>
                                                                                             <p>Head admin</p>
@@ -409,12 +433,12 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="d-flex">
-                                                                                        <img src="images/faces/face2.jpg" alt="">
+                                                                                        <img src="../../../images/faces/face2.jpg" alt="">
                                                                                         <div>
                                                                                             <h6>Laura Brooks</h6>
                                                                                             <p>Head admin</p>
@@ -444,12 +468,12 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="d-flex">
-                                                                                        <img src="images/faces/face3.jpg" alt="">
+                                                                                        <img src="../../../images/faces/face3.jpg" alt="">
                                                                                         <div>
                                                                                             <h6>Wayne Murphy</h6>
                                                                                             <p>Head admin</p>
@@ -479,12 +503,12 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="d-flex">
-                                                                                        <img src="images/faces/face4.jpg" alt="">
+                                                                                        <img src="../../../images/faces/face4.jpg" alt="">
                                                                                         <div>
                                                                                             <h6>Matthew Bailey</h6>
                                                                                             <p>Head admin</p>
@@ -514,12 +538,12 @@
                                                                                 <td>
                                                                                     <div class="form-check form-check-flat mt-0">
                                                                                         <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
+                                                                                        <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
                                                                                     </div>
                                                                                 </td>
                                                                                 <td>
                                                                                     <div class="d-flex">
-                                                                                        <img src="images/faces/face5.jpg" alt="">
+                                                                                        <img src="../../../images/faces/face5.jpg" alt="">
                                                                                         <div>
                                                                                             <h6>Katherine Butler</h6>
                                                                                             <p>Head admin</p>
@@ -552,20 +576,21 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="row flex-grow">
                                                     <div class="col-md-6 col-lg-6 grid-margin stretch-card">
                                                         <div class="card card-rounded">
                                                             <div class="card-body card-rounded">
-                                                                <h4 class="card-title  card-title-dash">Recent Events</h4>
+                                                                <h4 class="card-title  card-title-dash">Event Terbaru</h4>
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Change in Directors
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -573,12 +598,12 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Other Events
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -586,12 +611,12 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Quarterly Report
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -599,21 +624,20 @@
                                                                 <div class="list align-items-center border-bottom py-2">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-2 font-weight-medium">
-                                                                            Change in Directors
+                                                                            Lorem Ipsum
                                                                         </p>
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <div class="d-flex align-items-center">
                                                                                 <i class="mdi mdi-calendar text-muted me-1"></i>
-                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2019</p>
+                                                                                <p class="mb-0 text-small text-muted">Mar 14, 2021</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-
                                                                 <div class="list align-items-center pt-3">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-0">
-                                                                            <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
+                                                                            <a href="#" class="fw-bold text-primary">Lihat Semua<i class="mdi mdi-arrow-right ms-2"></i></a>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -624,49 +648,49 @@
                                                         <div class="card card-rounded">
                                                             <div class="card-body">
                                                                 <div class="d-flex align-items-center justify-content-between mb-3">
-                                                                    <h4 class="card-title card-title-dash">Activities</h4>
-                                                                    <p class="mb-0">20 finished, 5 remaining</p>
+                                                                    <h4 class="card-title card-title-dash">Aktivitas</h4>
+                                                                    <p class="mb-0">20 Selesai, 5 Tersisa</p>
                                                                 </div>
                                                                 <ul class="bullet-line-list">
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
-                                                                            <p>Just now</p>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
+                                                                            <p>Baru Saja</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Oliver Noah</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Oliver Noah</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Jack William</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Jack William</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Leo Lucas</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Leo Lucas</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Thomas Henry</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Thomas Henry</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
                                                                     <li>
                                                                         <div class="d-flex justify-content-between">
-                                                                            <div><span class="text-light-green">Ben Tossell</span> assign you a task</div>
+                                                                            <div><span class="text-light-green">Ben Tossell</span> memberikan tugas</div>
                                                                             <p>1h</p>
                                                                         </div>
                                                                     </li>
@@ -674,7 +698,7 @@
                                                                 <div class="list align-items-center pt-3">
                                                                     <div class="wrapper w-100">
                                                                         <p class="mb-0">
-                                                                            <a href="#" class="fw-bold text-primary">Show all <i class="mdi mdi-arrow-right ms-2"></i></a>
+                                                                            <a href="#" class="fw-bold text-primary">Lihat Semua<i class="mdi mdi-arrow-right ms-2"></i></a>
                                                                         </p>
                                                                     </div>
                                                                 </div>
@@ -682,8 +706,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                             </div>
+
                                             <div class="col-lg-4 d-flex flex-column">
+
                                                 <div class="row flex-grow">
                                                     <div class="col-12 grid-margin stretch-card">
                                                         <div class="card card-rounded">
@@ -693,7 +720,6 @@
                                                                         <div class="d-flex justify-content-between align-items-center">
                                                                             <h4 class="card-title card-title-dash">To do list</h4>
                                                                             <div class="add-items d-flex mb-0">
-                                                                                <!-- <input type="text" class="form-control todo-list-input" placeholder="What do you need to do today?"> -->
                                                                                 <button class="add btn btn-icons btn-rounded btn-primary todo-list-add-btn text-white me-0 pl-12p"><i class="mdi mdi-plus"></i></button>
                                                                             </div>
                                                                         </div>
@@ -702,45 +728,44 @@
                                                                                 <li class="d-block">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum<i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-warning me-3">Due tomorrow</div>
-                                                                                            <i class="mdi mdi-flag ms-2 flag-color"></i>
+                                                                                            <div class="ps-4 text-small me-3">24 June 2021</div>
+                                                                                            <div class="badge badge-opacity-warning me-3">Besok Terakhir</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li class="d-block">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">23 June 2020</div>
-                                                                                            <div class="badge badge-opacity-success me-3">Done</div>
+                                                                                            <div class="ps-4 text-small me-3">23 June 2021</div>
+                                                                                            <div class="badge badge-opacity-success me-3">Selesai</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li>
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
-                                                                                            <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-success me-3">Done</div>
+                                                                                            <div class="ps-4 text-small me-3">24 June 2021</div>
+                                                                                            <div class="badge badge-opacity-success me-3">Selesai</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
                                                                                 <li class="border-bottom-0">
                                                                                     <div class="form-check w-100">
                                                                                         <label class="form-check-label">
-                                              <input class="checkbox" type="checkbox"> Lorem Ipsum is simply dummy text of the printing <i class="input-helper rounded"></i>
-                                            </label>
+                                                                                            <input class="checkbox" type="checkbox"> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum <i class="input-helper rounded"></i>
+                                                                                        </label>
                                                                                         <div class="d-flex mt-2">
                                                                                             <div class="ps-4 text-small me-3">24 June 2020</div>
-                                                                                            <div class="badge badge-opacity-danger me-3">Expired</div>
+                                                                                            <div class="badge badge-opacity-danger me-3">Batal</div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
@@ -752,6 +777,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="row flex-grow">
                                                     <div class="col-12 grid-margin stretch-card">
                                                         <div class="card card-rounded">
@@ -777,68 +803,68 @@
                                                                     <div class="col-lg-12">
                                                                         <div class="d-flex justify-content-between align-items-center mb-3">
                                                                             <div>
-                                                                                <h4 class="card-title card-title-dash">Top Performer</h4>
+                                                                                <h4 class="card-title card-title-dash">Daftar Client</h4>
                                                                             </div>
                                                                         </div>
                                                                         <div class="mt-3">
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                                                                 <div class="d-flex">
-                                                                                    <img class="img-sm rounded-10" src="images/faces/face1.jpg" alt="profile">
+                                                                                    <img class="img-sm rounded-10" src="../../../images/faces/face1.jpg" alt="profile">
                                                                                     <div class="wrapper ms-3">
                                                                                         <p class="ms-1 mb-1 fw-bold">Brandon Washington</p>
                                                                                         <small class="text-muted mb-0">162543</small>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                                                                 <div class="d-flex">
-                                                                                    <img class="img-sm rounded-10" src="images/faces/face2.jpg" alt="profile">
+                                                                                    <img class="img-sm rounded-10" src="../../../images/faces/face2.jpg" alt="profile">
                                                                                     <div class="wrapper ms-3">
                                                                                         <p class="ms-1 mb-1 fw-bold">Wayne Murphy</p>
                                                                                         <small class="text-muted mb-0">162543</small>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                                                                 <div class="d-flex">
-                                                                                    <img class="img-sm rounded-10" src="images/faces/face3.jpg" alt="profile">
+                                                                                    <img class="img-sm rounded-10" src="../../../images/faces/face3.jpg" alt="profile">
                                                                                     <div class="wrapper ms-3">
                                                                                         <p class="ms-1 mb-1 fw-bold">Katherine Butler</p>
                                                                                         <small class="text-muted mb-0">162543</small>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
                                                                                 <div class="d-flex">
-                                                                                    <img class="img-sm rounded-10" src="images/faces/face4.jpg" alt="profile">
+                                                                                    <img class="img-sm rounded-10" src="../../../images/faces/face4.jpg" alt="profile">
                                                                                     <div class="wrapper ms-3">
                                                                                         <p class="ms-1 mb-1 fw-bold">Matthew Bailey</p>
                                                                                         <small class="text-muted mb-0">162543</small>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper d-flex align-items-center justify-content-between pt-2">
                                                                                 <div class="d-flex">
-                                                                                    <img class="img-sm rounded-10" src="images/faces/face5.jpg" alt="profile">
+                                                                                    <img class="img-sm rounded-10" src="../../../images/faces/face5.jpg" alt="profile">
                                                                                     <div class="wrapper ms-3">
                                                                                         <p class="ms-1 mb-1 fw-bold">Rafell John</p>
                                                                                         <small class="text-muted mb-0">Alaska, USA</small>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="text-muted text-small">
-                                                                                    1h ago
+                                                                                    1h lalu
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -849,6 +875,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -856,42 +883,35 @@
                         </div>
                     </div>
                 </div>
-                <!-- content-wrapper ends -->
-                <!-- partial:partials/_footer.html -->
+                <!-- Main Dashboard Ends-->
+
+                <!-- Footer Starts-->
                 <footer class="footer">
                     <div class="d-sm-flex justify-content-center justify-content-sm-between">
                         <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Surabaya Survey Solution</span>
                         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Copyright © 2021. All rights reserved.</span>
                     </div>
                 </footer>
-                <!-- partial -->
+                <!-- Footer Ends-->
+
             </div>
-            <!-- main-panel ends -->
         </div>
-        <!-- page-body-wrapper ends -->
     </div>
-    <!-- container-scroller -->
 
-    <!-- plugins:js -->
-    <script src="vendors/js/vendor.bundle.base.js"></script>
-    <!-- endinject -->
-    <!-- Plugin js for this page -->
-    <script src="vendors/chart.js/Chart.min.js"></script>
-    <script src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
-    <script src="vendors/progressbar.js/progressbar.min.js"></script>
+    <!-- Script Starts-->
+    <script src="../../../vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../../vendors/chart.js/Chart.min.js"></script>
+    <script src="../../../vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="../../../vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="../../../js/off-canvas.js"></script>
+    <script src="../../../js/hoverable-collapse.js"></script>
+    <script src="../../../js/template.js"></script>
+    <script src="../../../js/settings.js"></script>
+    <script src="../../../js/todolist.js"></script>
+    <script src="../../../js/dashboard.js"></script>
+    <script src="../../../js/Chart.roundedBarCharts.js"></script>
+    <!-- Script Starts-->
 
-    <!-- End plugin js for this page -->
-    <!-- inject:js -->
-    <script src="js/off-canvas.js"></script>
-    <script src="js/hoverable-collapse.js"></script>
-    <script src="js/template.js"></script>
-    <script src="js/settings.js"></script>
-    <script src="js/todolist.js"></script>
-    <!-- endinject -->
-    <!-- Custom js for this page-->
-    <script src="js/dashboard.js"></script>
-    <script src="js/Chart.roundedBarCharts.js"></script>
-    <!-- End custom js for this page-->
 </body>
 
 </html>
