@@ -55,7 +55,7 @@
         "jvectormap": "2.0.4",
         "lightgallery": "^1.6.12",
         "merge-stream": "^2.0.0",
-        "moment": "^2.24.0",
+        "moment": "^2.29.2",
         "morris.js": "github:morrisjs/morris.js",
         "nouislider": "^13.1.5",
         "owl-carousel-2": "0.0.3",
